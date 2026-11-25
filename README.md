@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to restrict user interaction with page elements while a loading overlay is active by using the Syncfusion [Blazor Spinner](https://www.syncfusion.com/forums). Preventing keyboard focus from moving to controls beneath an active overlay helps maintain a consistent user experience and improves accessibility when background content should not be interacted with during processing.
+This sample demonstrates how to restrict user interaction with page elements while a loading overlay is active by using the Syncfusion [Blazor Spinner](https://www.syncfusion.com/blazor-components/blazor-spinner). Preventing keyboard focus from moving to controls beneath an active overlay helps maintain a consistent user experience and improves accessibility when background content should not be interacted with during processing.
 
 The sample shows a Blazor application that displays a spinner overlay and blocks focus from reaching controls that are visually covered by the loading layer.
 
@@ -58,7 +58,7 @@ dotnet run
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
 - To report an issue specific to this sample, open a GitHub issue in this repository.
-- For implementation details, see the [relevant official Syncfusion documentation](https://blazor.syncfusion.com/documentation/progress-bar/getting-started).
+- For implementation details, see the [relevant official Syncfusion documentation](https://blazor.syncfusion.com/documentation/spinner/getting-started-webapp).
 
 ## License
 
