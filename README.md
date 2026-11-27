@@ -36,23 +36,26 @@ The sample shows a Blazor application that displays a spinner overlay and blocks
 
 **Visual Studio Code**
 
-1. Clone the repository.
-2. Open the repository folder in Visual Studio Code.
-3. Open the integrated terminal.
-4. Navigate to the startup project directory for the hosted application.
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the `SpinnerOverlay` project directory.
+
+```bash
+cd SpinnerOverlay
+```
+4. Restore project dependencies:
 
 ```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-5. Open the local URL displayed in the terminal after the application starts.
-
-## Project Structure
-
-- `SpinnerOverlay.sln` — Visual Studio solution file containing the sample projects.
-
-- `Pages/Index.razor` — Main sample page that demonstrates preventing focus on controls beneath a Syncfusion Spinner overlay. Contains SfSpinner, SfButton, SfTextBox, and JavaScript interop logic.
+6. Open the URL displayed in the terminal after the application starts.
 
 ## Support and Feedback
 
